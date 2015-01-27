@@ -51,7 +51,7 @@ default['kibana']['es_scheme'] = 'http://'
 default['kibana']['user'] = 'kibana'
 
 # config template location and variables.
-default['kibana']['config']['kibana_index']  = 'kibana-int'
+default['kibana']['config']['kibana_index']  = '.kibana'
 default['kibana']['config']['panel_names']   =  %w(histogram map pie table filtering timepicker text fields hits dashcontrol column derivequeries trends bettermap query terms)
 default['kibana']['config']['default_route'] = '/dashboard/file/logstash.json'
 # include quote inside this next variable if not using window.location style variables...
